@@ -13,6 +13,6 @@ Yet Another Lodash Mixins. Mixins i use in my pet-projects
 * `filteredDeep(o, path, fn)` — immutable filter by path
 * `forDo(o, key, val, cb)` — [custom] run callback for matched values
 * `omitEvery(o, keys)` — omit for collection (omit keys in every object-item of array)
-* `mappedValuesFn(o, map)` — map values by custom map function. Where `map` is an `Object {key:(oldVal)=>'newVal'}`
+* `mappedValuesFn(o, map)` — map values by custom map function. <br/>Where `map` is an `Object {key:(oldVal)=>'newVal'}`
 * `camelizeKeys` — [wrappers] camelize keys in object. [humps](https://github.com/domchristie/humps)
-* `mappedKeys(o, map)` — [wrappers] custom declarative map keys. Where `map` is an `Object {oldKey:'newKey'}`. [remap-keys](https://github.com/diasdavid/remap-keys)
+* `mappedKeys(o, map)` — [wrappers] custom declarative map keys. <br/>Where `map` is an `Object {oldKey:'newKey'}`. [remap-keys](https://github.com/diasdavid/remap-keys)
