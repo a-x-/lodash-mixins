@@ -1,0 +1,24 @@
+{
+  "name": "yet-another-lodash-mixins",
+  "version": "0.0.1",
+  "description": "Yet Another Lodash Mixins. Mixins i uses in my pet-projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-x-/lodash-mixins.git"
+  },
+  "keywords": [
+    "lodash",
+    "mixins",
+    "immutability"
+  ],
+  "author": "Alex Mextner <invntrm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-x-/lodash-mixins/issues"
+  },
+  "homepage": "https://github.com/a-x-/lodash-mixins#readme"
+}
