@@ -1,19 +1,18 @@
 # lodash-mixins
 Yet Another Lodash Mixins. Mixins i use in my pet-projects
 
-## immutabilize lodash
+[immutabilize]
+[custom]
+[wrappers]
+
 * `spliceStr(str, start, len, replacer)` — immutable splice
 * `merged(o1, o2)` — immutable merge
 * `set_(o, path)` — immutable set
 * `mergedDeep(o1, path, o2)` — immutable merge object by path
 * `concatArrDeep(o, path, arr)` — immutable concat array by path
 * `filteredDeep(o, path, fn)` — immutable filter by path
-
-## custom things
-* `forDo(o, key, val, cb)` — run callback for matched values
+* `forDo(o, key, val, cb)` — [custom] run callback for matched values
 * `omitEvery(o, keys)` — omit for collection (omit keys in every object-item of array)
 * `mappedValuesFn(o, map)` — map values by custom map function. Where `map` is an `Object {key:(oldVal)=>'newVal'}`
-
-## another libs wrappers
-* `camelizeKeys` — camelize keys in object. [humps](https://github.com/domchristie/humps)
-* `mappedKeys(o, map)` — custom declarative map keys. Where `map` is an `Object {oldKey:'newKey'}`. [remap-keys](https://github.com/diasdavid/remap-keys)
+* `camelizeKeys` — [wrappers] camelize keys in object. [humps](https://github.com/domchristie/humps)
+* `mappedKeys(o, map)` — [wrappers] custom declarative map keys. Where `map` is an `Object {oldKey:'newKey'}`. [remap-keys](https://github.com/diasdavid/remap-keys)
