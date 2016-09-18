@@ -88,7 +88,7 @@ _lodash2.default.mixin({
 
     // omit for collection (omit keys in every object-item of array)
     omitEvery: function omitEvery(arr, keys) {
-        return _lodash2.default.map(o, _lodash2.default.partialRight(_lodash2.default.omit, keys));
+        return _lodash2.default.map(arr, _lodash2.default.partialRight(_lodash2.default.omit, keys));
     }
 });
 
