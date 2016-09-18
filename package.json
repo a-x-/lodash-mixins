@@ -1,6 +1,6 @@
 {
   "name": "yet-another-lodash-mixins",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Yet Another Lodash Mixins. Mixins i uses in my pet-projects",
   "main": "index.js",
   "scripts": {
