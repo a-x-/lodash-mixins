@@ -64,5 +64,5 @@ _.mixin({
         map.hasOwnProperty(key) ? map[key](val) : val),
 
     // omit for collection (omit keys in every object-item of array)
-    omitEvery: (arr, keys) => _.map(o, _.partialRight(_.omit, keys))
+    omitEvery: (arr, keys) => _.map(arr, _.partialRight(_.omit, keys))
 })
