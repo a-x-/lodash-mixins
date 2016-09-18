@@ -15,5 +15,5 @@ Yet Another Lodash Mixins. Mixins i use in my pet-projects
 * `mappedValuesFn(o, map)` — map values by custom map function. Where `map` is an `Object {key:(oldVal)=>'newVal'}`
 
 ## another libs wrappers
-* `camelizeKeys`
-* `mappedKeys(o, map)` — custom declarative map keys. Where `map` is an `Object {oldKey:'newKey'}`
+* `camelizeKeys` — camelize keys in object. [humps](https://github.com/domchristie/humps)
+* `mappedKeys(o, map)` — custom declarative map keys. Where `map` is an `Object {oldKey:'newKey'}`. [remap-keys](https://github.com/diasdavid/remap-keys)
